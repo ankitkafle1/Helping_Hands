@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import './App.css';
+import Header from './components/header_footer/Header';
 
-class App extends Component () {
-render(){
-  return(
-    <div className="App">
-      <p>Ankit Kafle</p>
-    </div>
-  )
+function App () {
+    return(
+      <div className="App" style={{height:"1500px", background:'#f0faf7'}}>
+          <Header/>
+          <Header/>
+      </div>
+    )
 }
-}
-
 export default App;
