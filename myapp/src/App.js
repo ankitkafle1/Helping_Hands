@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/header_footer/Header';
 import Profile from './components/header_footer/Profile';
-function App () {
+class App extends React.Component{
+  render(){
     return(
       <div>
           <Header/>
@@ -9,5 +10,6 @@ function App () {
           <Header/>
       </div>
     )
+}
 }
 export default App;
