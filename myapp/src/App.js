@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Header from './components/header_footer/Header';
-
-function App () {
+import Profile from './components/header_footer/Profile';
+class App extends React.Component{
+  render(){
     return(
-      <div className="App" style={{height:"1500px", background:'#f0faf7'}}>
+      <div>
           <Header/>
+          <Profile/>
           <Header/>
       </div>
     )
+}
 }
 export default App;
