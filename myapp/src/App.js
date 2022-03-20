@@ -33,13 +33,14 @@ function App() {
       }
       const result = await apiRequest(API_URL, postOptions);
     }
+    
   return(
     <div>
         <Header/>
         <Customers CustomersInfo ={CustomersInfo}/>
         <AddCustomer 
         CustomersInfo={CustomersInfo}
-        addItems={addItems}
+        //addItems={addItems}
         />
     </div>
     )
